@@ -1,0 +1,5 @@
+# 运行环境：Python 3.14（scoop 的 python314）
+# 只需要这三个包：图像计算、读写/显示、图形界面
+numpy>=2.0
+opencv-python>=4.10
+PyQt5==5.15.11

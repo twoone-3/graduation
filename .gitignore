@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 运行产物（演示图/攻击结果可随时重新生成）
+results/**/*.png
+results/**/*.jpg
+!results/.gitkeep
+# 文档里引用的界面截图需要保留
+!results/gui_preview_text.png
+!results/gui_preview_binary.png
+!results/gui_preview_remove.png
+!results/gui_preview_text_980x600.png
+
+# 编辑器/系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 个人文档（任务书 / 论文 / 答辩材料）放在 OneDrive\文档\毕业设计，不进仓库
+*.doc
+*.docx
+*.ppt
+*.pptx
+~$*
